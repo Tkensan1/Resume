@@ -1,0 +1,77 @@
+html{
+    background-color: black;
+}
+header {
+    text-align: center;
+    background: url('/Users/thiagoinoue/Desktop/HTML-CSS Lab/nordwood-themes-KcsKWw77Ovw-unsplash.jpg') no-repeat top center ;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 60px;
+  }
+  header {
+    line-height: 1.5;
+  }
+  header .profile-image {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: all .5s;
+  }
+  header .profile-image:hover {
+    transform: scale(1.2) rotate(5deg);
+  }
+
+body{
+    margin: 0px 80px;
+    padding: 0px 30px;
+    border: 2px solid blue;
+    background-color: white;
+}
+
+.container{
+    border: 2px solid blue;
+    padding: 0px 20px;
+    margin: 0;
+}
+
+#headerPart{
+    padding: 4px 8px;
+    border: 2px solid blue;
+}
+
+article{
+    padding: 0;
+    margin: 0;
+}
+
+.sectionSame{
+padding: 4px 10px;
+border: 2px solid blue;
+border-top: 0.1px solid blue;
+}
+.divS{
+    border: 1px dotted grey;
+}
+
+.footerE{
+    padding: 3px 10px;
+    margin:0;
+    border-bottom: 2px solid blue;
+    border-right: 2px solid blue;
+    border-left: 2px solid blue;
+    border-top: 0.5px solid blue;
+}
+
+ul.list1 {
+    list-style-type: circle;
+  }
+
+  ol.list2 {
+    list-style-type: upper-roman;
+  }
+
+  footer p{
+      line-height: 80%;
+  }
